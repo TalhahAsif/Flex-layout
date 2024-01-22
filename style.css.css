@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section.container {
+  height: 100vh;
+  /* margin: 2px; */
+}
+section > div {
+  height: 25vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* padding: 10px; */
+}
+
+.row > div {
+  background-color: #99ce1c;
+  border: 7px solid black;
+  border-radius: 10px;
+  height: 95%;
+  margin: 5px;
+  /* width: 100px; */
+}
+
+.box1 {
+  width: 60%;
+}
+.box2 {
+  width: 20%;
+}
+.box3 {
+  width: 10%;
+}
